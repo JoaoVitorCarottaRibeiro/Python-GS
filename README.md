@@ -4,7 +4,7 @@ Diego Eleutério Fadul da Costa - RM 557218
 
 Detalhes do projeto Econect:
 
-Para realizar o projeto em python, criamos uma inteligência artificial que futuramente foi integrada ao nosso site via FastAPI.
+Para realizar o projeto em python, criamos uma inteligência artificial em um ambiente virtual Poetry que futuramente foi integrada ao nosso site via FastAPI.
 
 Essa IA foi treinada com base em um banco de dados pegando valores em R$ e consumo de energia limpa em kW. Depois lemos essa base de dados via pandas e criamos o modelo de machine learning com a biblioteca sklearn, pegando seu modelo linear, o modelo de teste e o r2_score, que faz uma verificação de acertividade do modelo treinado. Definimos x e y como eixos para serem treinados com base no nome da coluna da base de dados, depois, importamos com pickle a IA já treinada.
 
